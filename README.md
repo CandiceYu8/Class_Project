@@ -1,1 +1,1 @@
-# data_science
+Homeworks for classes in data science school.
