@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1507882732 source:f:\school\data_science\2.1\ds\code\permutation\main.cpp
+	<iostream>
+	<vector>
+

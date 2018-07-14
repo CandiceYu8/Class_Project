@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1507529631 source:e:\homework\ds\codes\week4\main.cpp
+	<iostream>
+	"Queue.h"
+	"maze.h"
+
+1506668811 source:e:\homework\ds\codes\week4\queue.cpp
+	"Queue.h"
+
+1507529072 e:\homework\ds\codes\week4\queue.h
+
+1507527902 e:\homework\ds\codes\week4\queue.cpp
+	"Queue.h"
+
+1506672754 e:\homework\ds\codes\week4\maze.cpp
+	"maze.h"
+
+1507529981 e:\homework\ds\codes\week4\maze.h
+	"Queue.h"
+	"Queue.cpp"
+
+1507530247 source:e:\homework\ds\codes\week4\maze.cpp
+	<iostream>
+	<cstring>
+	"maze.h"
+	"Queue.h"
+
+1507527902 source:e:\homework\ds\codes\week4\queue_.cpp
+	"Queue.h"
+

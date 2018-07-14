@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1507346614 source:f:\school\data_science\2.1\ds\code\week5\main.cpp
+	<iostream>
+	"Linked_table.h"
+
+1507346885 source:f:\school\data_science\2.1\ds\code\week5\linked_table.cpp
+	<iostream>
+	<cstring>
+	"Linked_table.h"
+
+1507346717 f:\school\data_science\2.1\ds\code\week5\linked_table.h
+	<string>
+
+1507294622 f:\school\data_science\2.1\ds\code\week5\linked_table.cpp
+	<iostream>
+	"Linked_table.h"
+
+1507527197 source:e:\gitee\ds\week5\linked_table.cpp
+	<iostream>
+	<cstring>
+	"Linked_table.h"
+
+1507459633 e:\gitee\ds\week5\linked_table.h
+	<string>
+
+1507527312 source:e:\gitee\ds\week5\main.cpp
+	<iostream>
+	"Linked_table.h"
+
+1508135222 source:e:\homework\ds\codes\week5\linked_table.cpp
+	<iostream>
+	<cstring>
+	"Linked_table.h"
+
+1508135037 e:\homework\ds\codes\week5\linked_table.h
+	<string>
+
+1508135379 source:e:\homework\ds\codes\week5\main.cpp
+	<iostream>
+	"Linked_table.h"
+

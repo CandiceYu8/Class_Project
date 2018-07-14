@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1505719845 source:e:\homework\ds\codes\life\main.cpp
+	<iostream>
+	<stdlib.h>
+	"life.h"
+	"life.cpp"
+
+1505719768 e:\homework\ds\codes\life\life.h
+
+1505719885 e:\homework\ds\codes\life\life.cpp
+	<iostream>
+	<stdlib.h>
+	"life.h"
+
+1505719846 source:f:\school\data_science\2.1\ds\code\life\main.cpp
+	<iostream>
+	<stdlib.h>
+	"life.h"
+	"life.cpp"
+
+1505719770 f:\school\data_science\2.1\ds\code\life\life.h
+
+1505719886 f:\school\data_science\2.1\ds\code\life\life.cpp
+	<iostream>
+	<stdlib.h>
+	"life.h"
+

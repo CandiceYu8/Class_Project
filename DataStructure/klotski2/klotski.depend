@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1509949219 source:e:\homework\ds\codes\klotski\main.cpp
+	<iostream>
+	<cstring>
+	<set>
+	<vector>
+	"klotski.h"
+
+1509884810 e:\homework\ds\codes\klotski\include\klotski.h
+	<iostream>
+	<set>
+	<vector>
+	<cstring>
+
+1509888252 source:e:\homework\ds\codes\klotski\src\klotski.cpp
+	"klotski.h"
+
+1509957367 source:e:\homework\ds\codes\klotski2\main.cpp
+	<iostream>
+	<cstring>
+	<set>
+	<vector>
+	"klotski.h"
+
+1509956377 e:\homework\ds\codes\klotski2\include\klotski.h
+	<iostream>
+	<set>
+	<vector>
+	<cstring>
+
+1510053447 source:e:\homework\ds\codes\klotski2\src\klotski.cpp
+	"klotski.h"
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1508423960 source:e:\homework\ds\codes\cirlink_table\main.cpp
+	<iostream>
+	"Cir_Link.h"
+
+1508424433 source:e:\homework\ds\codes\cirlink_table\src\cir_link.cpp
+	<iostream>
+	"Cir_Link.h"
+
+1508423427 e:\homework\ds\codes\cirlink_table\include\cir_link.h
+

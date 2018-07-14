@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1509809827 source:c:\users\scott\desktop\git repository\datastructure\eightpuzzle\main.cpp
+	<iostream>
+	"puzzle.h"
+	<string>
+
+1509852824 c:\users\scott\desktop\git repository\datastructure\eightpuzzle\puzzle.h
+	<string>
+	<vector>
+	<queue>
+
+1509853488 source:c:\users\scott\desktop\git repository\datastructure\eightpuzzle\puzzle.cpp
+	<string>
+	<vector>
+	<queue>
+	<iostream>
+	"puzzle.h"
+
+1509886794 source:c:\users\user\desktop\datastructure\eightpuzzle\main.cpp
+	<iostream>
+	"puzzle.h"
+	<string>
+
+1509857556 c:\users\user\desktop\datastructure\eightpuzzle\puzzle.h
+	<string>
+	<vector>
+	<queue>
+
+1509857718 source:c:\users\user\desktop\datastructure\eightpuzzle\puzzle.cpp
+	<string>
+	<vector>
+	<queue>
+	<iostream>
+	"puzzle.h"
+
+1509970175 source:c:\users\user\desktop\datastructure\eightpuzzle2\main.cpp
+	<iostream>
+	"puzzle.h"
+	<string>
+	<set>
+	<time.h>
+
+1509969976 source:c:\users\user\desktop\datastructure\eightpuzzle2\puzzle.cpp
+	<string>
+	<vector>
+	<iostream>
+	<set>
+	"puzzle.h"
+
+1509969204 c:\users\user\desktop\datastructure\eightpuzzle2\puzzle.h
+	<string>
+	<vector>
+	<set>
+
+1509970654 source:h:\eightpuzzle2\main.cpp
+	<iostream>
+	"puzzle.h"
+	<string>
+	<set>
+	<time.h>
+
+1509969206 h:\eightpuzzle2\puzzle.h
+	<string>
+	<vector>
+	<set>
+
+1509970432 source:h:\eightpuzzle2\puzzle.cpp
+	<string>
+	<vector>
+	<iostream>
+	<set>
+	"puzzle.h"
+

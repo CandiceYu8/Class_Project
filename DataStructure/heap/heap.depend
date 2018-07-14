@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1513484488 source:f:\school\data_science\2.1\ds\code\heap\main.cpp
+	<iostream>
+	"heap.h"
+
+1513487859 f:\school\data_science\2.1\ds\code\heap\heap.h
+	<iostream>
+	<vector>
+

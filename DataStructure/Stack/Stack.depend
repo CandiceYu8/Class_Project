@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1506173159 source:e:\homework\ds\codes\stack\main.cpp
+	<iostream>
+	"stack.h"
+	"stack.cpp"
+
+1506174203 e:\homework\ds\codes\stack\stack.h
+
+1506174294 e:\homework\ds\codes\stack\stack.cpp
+	<iostream>
+	"stack.h"
+
+1506174294 source:e:\homework\ds\codes\stack\stack.cpp
+	<iostream>
+	"stack.h"
+

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1510555290 source:e:\homework\ds\codes\week9\src\integer.cpp
+	"Integer.h"
+
+1510555290 e:\homework\ds\codes\week9\include\integer.h
+	<iostream>
+	<vector>
+
+1510555196 source:e:\homework\ds\codes\week9\main.cpp
+	<iostream>
+	<vector>
+	"Integer.h"
+	"Sort.h"
+
+1510549548 e:\homework\ds\codes\week9\sort.h
+	<iostream>
+	<vector>
+	"Integer.h"
+

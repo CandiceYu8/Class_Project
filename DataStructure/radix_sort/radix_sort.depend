@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1511688225 source:f:\school\data_science\2.1\ds\code\radix_sort\main.cpp
+	<iostream>
+	<string>
+	"sortable_list.h"
+
+1511688059 f:\school\data_science\2.1\ds\code\radix_sort\include\list.h
+
+1511688237 f:\school\data_science\2.1\ds\code\radix_sort\sortable_list.h
+
+1511603854 source:f:\school\data_science\2.1\ds\code\radix_sort\src\list.cpp
+	"List.h"
+
+1511599310 f:\school\data_science\2.1\ds\code\radix_sort\include\queue.h
+	"List.h"
+
+1511598709 source:f:\school\data_science\2.1\ds\code\radix_sort\src\queue.cpp
+	"Queue.h"
+

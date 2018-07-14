@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1508155908 source:e:\homework\ds\codes\week6\main.cpp
+	<iostream>
+	"skiing.h"
+
+1508155756 e:\homework\ds\codes\week6\include\skiing.h
+
+1508155231 source:e:\homework\ds\codes\week6\src\skiing.cpp
+	<iostream>
+	"skiing.h"
+

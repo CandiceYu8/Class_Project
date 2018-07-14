@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1506229968 source:f:\school\data_science\2.1\ds\code\week3\op.cpp
+	"op.h"
+
+1506240161 f:\school\data_science\2.1\ds\code\week3\op.h
+
+1506243146 source:f:\school\data_science\2.1\ds\code\week3\main.cpp
+	<iostream>
+	<string>
+	<cmath>
+	"op.cpp"
+
+1506229968 f:\school\data_science\2.1\ds\code\week3\op.cpp
+	"op.h"
+
+1506315904 source:e:\homework\ds\codes\week3\op.cpp
+	<string>
+	"op.h"
+
+1506319968 e:\homework\ds\codes\week3\op.h
+
+1506316531 source:e:\homework\ds\codes\week3\main.cpp
+	<iostream>
+	<string>
+	<cmath>
+	"op.cpp"
+
+1506315904 e:\homework\ds\codes\week3\op.cpp
+	<string>
+	"op.h"
+
