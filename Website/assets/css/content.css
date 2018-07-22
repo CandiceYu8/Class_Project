@@ -1,0 +1,308 @@
+/* the content element for html, such as header/main/footer */
+
+/* Wrapper */
+	.page-wrap {
+		display: -ms-flexbox;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: nowrap;
+		-webkit-flex-wrap: nowrap;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		-moz-justify-content: -moz-flex-start;
+		-webkit-justify-content: -webkit-flex-start;
+		-ms-justify-content: -ms-flex-start;
+		justify-content: flex-start;
+	}
+
+	.wrapper {
+		position: relative;
+	}
+
+		.wrapper > .inner {
+			margin: 0 auto;
+			width: 60em;
+		}
+
+
+/* Header */
+	#header {
+		font-weight: 700;
+	}
+
+    
+/* Navigation */
+	#nav {
+		background: #0d1217;
+		z-index: 10002;
+		position: relative;
+		width: 4em;
+	}
+
+		#nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			position: fixed;
+			top: 1em;
+			left: 0;
+		}
+
+			#nav ul li {
+				padding: 0;
+				width: 3.75em;
+				text-align: Center;
+				margin-bottom: 1em;
+			}
+
+				#nav ul li a {
+					color: rgba(255, 255, 255, 0.5);
+					text-decoration: none;
+					font-size: 1.5em;
+				}
+
+					#nav ul li a:hover {
+						color: white;
+					}
+
+					#nav ul li a.active {
+						color: #19B5FE;
+					}
+
+
+/* Banner */
+	body.is-loading #banner > .inner {
+		opacity: 0;
+		-moz-transform: translateY(1em);
+		-webkit-transform: translateY(1em);
+		-ms-transform: translateY(1em);
+		transform: translateY(1em);
+	}
+
+	#banner {
+		display: -ms-flexbox;
+		-ms-flex-pack: center;
+		-ms-flex-align: center;
+		padding: 8em 0 6em 0;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		min-height: 75vh;
+		height: 75vh;
+		position: relative;
+		background: #000;
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		text-align: center;
+		color: #FFF;
+	}
+
+		#banner:before {
+			-moz-transition: opacity 3s ease;
+			-webkit-transition: opacity 3s ease;
+			-ms-transition: opacity 3s ease;
+			transition: opacity 3s ease;
+			-moz-transition-delay: 0.25s;
+			-webkit-transition-delay: 0.25s;
+			-ms-transition-delay: 0.25s;
+			transition-delay: 0.25s;
+			content: '';
+			display: block;
+			background-color: #000;
+			height: 100%;
+			left: 0;
+			opacity: 0.65;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+
+		#banner .inner {
+			-moz-transform: none;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
+			-moz-transition: opacity 1s ease, transform 1s ease;
+			-webkit-transition: opacity 1s ease, transform 1s ease;
+			-ms-transition: opacity 1s ease, transform 1s ease;
+			transition: opacity 1s ease, transform 1s ease;
+			position: relative;
+			opacity: 1;
+			z-index: 3;
+			padding: 0 2em;
+		}
+
+		#banner h1 {
+			font-size: 4em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+			color: #FFF;
+		}
+
+		#banner p {
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
+		}
+
+		#banner a {
+			color: #FFF;
+			text-decoration: none;
+		}
+
+
+/* Main */
+	#main {
+		background: #f1f1f1;
+		width: 100%;
+	}
+
+		#main #header {
+			background: #e6e6e6;
+			padding: 1.15em 3.5em;
+			text-align: right;
+		}
+
+			#main #header h1 {
+				margin: 0;
+				font-size: 1em;
+			}
+
+
+
+/* Cartoons */
+@-moz-keyframes cartoon {
+    100% {
+        opacity: 1;		}
+}
+
+@-webkit-keyframes cartoon {
+    100% {
+        opacity: 1;		}
+}
+
+@-ms-keyframes cartoon {
+    100% {
+        opacity: 1;		}
+}
+
+@keyframes cartoon {
+    100% {
+        opacity: 1;		}
+}
+
+.cartoon {
+    padding: 3.5em;
+    position: relative;
+    overflow: hidden;
+    min-height: 37em;
+}
+
+    .cartoon header {
+        display: -ms-flexbox;
+        -ms-flex-pack: justify;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -moz-justify-content: space-between;
+        -webkit-justify-content: space-between;
+        -ms-justify-content: space-between;
+        justify-content: space-between;
+    }
+
+        .cartoon header.special {
+            -moz-justify-content: center;
+            -webkit-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+        }
+
+
+    .cartoon footer {
+        text-align: center;
+        margin-top: 4em;
+    }
+
+    .cartoon .content {
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -moz-justify-content: -moz-flex-start;
+        -webkit-justify-content: -webkit-flex-start;
+        -ms-justify-content: -ms-flex-start;
+        justify-content: flex-start;
+    }
+
+        .cartoon .content .media {
+            -moz-animation: cartoon 0.75s ease-out 0.4s forwards;
+            -webkit-animation: cartoon 0.75s ease-out 0.4s forwards;
+            -ms-animation: cartoon 0.75s ease-out 0.4s forwards;
+            animation: cartoon 0.75s ease-out 0.4s forwards;
+            margin-bottom: 0;
+            overflow: hidden;
+            opacity: 0;
+            position: relative;
+            width: 25%;
+        }
+
+            .cartoon .content .media a {
+                display: block;
+            }
+
+            .cartoon .content .media img {
+                -moz-transition: -moz-transform 0.2s ease-in-out;
+                -webkit-transition: -webkit-transform 0.2s ease-in-out;
+                -ms-transition: -ms-transform 0.2s ease-in-out;
+                transition: transform 0.2s ease-in-out;
+                max-width: 100%;
+                height: auto;
+                vertical-align: middle;
+            }
+
+            .cartoon .content .media:hover img {
+                -moz-transform: scale(1.075);
+                -webkit-transform: scale(1.075);
+                -ms-transform: scale(1.075);
+                transform: scale(1.075);
+            }
+
+
+/* Footer */
+
+	#footer {
+		padding: 4em 0 2em 0;
+		background: #f2f2f2;
+	}
+
+		#footer .copyright {
+			color: #bfbfbf;
+			font-size: 0.9em;
+			margin: 0 0 2em 0;
+			padding: 0 1em;
+			text-align: center;
+		}

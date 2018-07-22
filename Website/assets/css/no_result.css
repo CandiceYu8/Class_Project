@@ -1,0 +1,50 @@
+body{
+    background-image: url(../../images/banner2.jpg);
+    background-size:cover;
+    width:100%;
+    height: auto;
+}
+
+h1 {
+    text-align:center;
+    font-size:900%;
+}
+
+h2 {
+    text-align:right;
+    font-size:600%;
+}
+
+h2 a{
+    text-decoration: none;
+}
+
+h2 a:visited{
+    color: black;
+}
+
+h2 a:hover{
+    color: grey;
+}
+
+h3 {
+    text-align:right;
+    font-size:300%;
+}
+
+h3 a{
+    text-decoration: none;
+}
+
+h3 a:link{
+    color: black;
+}
+
+h3 a:visited{
+    color: black;
+}
+
+h3 a:hover{
+    color: grey;
+}
+

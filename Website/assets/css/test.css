@@ -1,0 +1,49 @@
+body{
+    background-image: url(../../images/search.jpg);
+}
+
+h1 {
+    position:fixed;
+    left:20%;
+    top:20%;
+    font-size:100%;
+}
+
+h2 {
+    position:fixed;
+    left:40%;
+    top:40%;
+    font-size:500%;
+}
+
+h2 a{
+    text-decoration: none;
+}
+
+h2 a:visited{
+    color: black;
+}
+
+h2 a:hover{
+    color: grey;
+}
+
+h3 {
+    position:fixed;
+    left:70%;
+    top:70%;
+    font-size:400%;
+}
+
+h3 a{
+    text-decoration: none;
+}
+
+h3 a:visited{
+    color: black;
+}
+
+h3 a:hover{
+    color: grey;
+}
+

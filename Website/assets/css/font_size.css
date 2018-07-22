@@ -1,0 +1,72 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600");
+
+/* font and size */
+body {
+    background-color: #fff;
+    color: #22313F;
+}
+
+body, input, select, textarea {
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    font-weight: 300;
+    line-height: 1.65;
+}
+
+a {
+    text-decoration: underline;
+    color: #19B5FE;
+}
+
+    a:hover {
+        text-decoration: none;
+        color: #019be3;
+    }
+
+strong, b {
+    font-weight: 700;
+}
+
+em, i {
+    font-style: italic;
+}
+
+p {
+    margin: 0 0 2em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+}
+
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.35em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 0.9em;
+}
+
+h6 {
+    font-size: 0.7em;
+}
